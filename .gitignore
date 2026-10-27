@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+*.pt
+*.safetensors
+demo_outputs/
+demo/demo_outputs/
+.pytest_cache/

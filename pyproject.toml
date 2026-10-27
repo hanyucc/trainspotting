@@ -1,0 +1,30 @@
+[project]
+name = "spotter"
+version = "1.0.0"
+description = "Spotter: object-centric 3D reconstruction from found photos (Trainspotting)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Hanyu Chen"}]
+dependencies = [
+    "torch>=2.3",
+    "torchvision>=0.18",
+    "numpy<2",
+    "Pillow",
+    "einops",
+    "safetensors",
+    "opencv-python",
+    "scipy",
+    "huggingface_hub",
+]
+
+[project.optional-dependencies]
+demo = ["gradio>=5.17.1", "trimesh", "matplotlib"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["spotter*"]

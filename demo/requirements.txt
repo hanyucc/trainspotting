@@ -1,0 +1,7 @@
+# Hugging Face Space / local demo dependencies (torch comes from the Space image or your environment).
+git+https://github.com/hanyucc/trainspotting.git
+gradio>=5.17.1
+trimesh
+matplotlib
+scipy
+opencv-python-headless
