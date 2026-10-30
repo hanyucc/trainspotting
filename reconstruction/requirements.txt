@@ -1,0 +1,18 @@
+pycolmap==4.0.4
+numpy
+scipy
+opencv-python
+pillow
+tqdm
+einops
+huggingface_hub
+gdown
+roma
+scikit-learn
+decord
+pycocotools
+psutil
+sam3 @ git+https://github.com/facebookresearch/sam3@f6e51f59500a87c576c2df2323ce56b9fd7a12de
+fused-local-corr==0.3.28
+romav2 @ git+https://github.com/Parskatt/RoMaV2@95c9968145c8906b7b59383258e9f73b02853d89
+moge @ git+https://github.com/microsoft/MoGe@07444410f1e33f402353b99d6ccd26bd31e469e8

@@ -20,6 +20,7 @@ This repository contains
 | `demo/` | Gradio demo and the inference helper | FAIR Noncommercial Research License |
 | `evaluation/` | the Trainspotting held-out evaluation protocol, per-sample results of every model in the paper | MIT (`evaluation/LICENSE`) |
 | `tests/` | smoke test against stored reference outputs | MIT |
+| `reconstruction/` | the reconstruction pipeline: cameras, depth and object masks from a photo collection and a text prompt, with its own installation (`reconstruction/README.md`) | MIT (`reconstruction/LICENSE`) |
 
 ## Installation
 
@@ -95,8 +96,9 @@ python tests/test_smoke.py            # runs the model on four example photos an
 
 `spotter/` and `demo/` are derived from [VGGT-Ω](https://github.com/facebookresearch/vggt-omega) and are
 distributed, like the Spotter weights, under the FAIR Noncommercial Research License (`LICENSE`): noncommercial
-research use only. `evaluation/` and `tests/` are MIT licensed, except `evaluation/preprocess.py`, which is
-adapted from VGGT and carries its license. The example photos in `demo/examples/` keep their Wikimedia
+research use only. `evaluation/`, `tests/` and `reconstruction/` are MIT licensed, except `evaluation/preprocess.py`, which is
+adapted from VGGT and carries its license, and the CasDiffMVS and ViGeo code in `reconstruction/trainspotting_recon/vendor/`, which
+keeps its Apache 2.0 license. The example photos in `demo/examples/` keep their Wikimedia
 Commons licenses (`ATTRIBUTION.md`).
 
 ## Citation

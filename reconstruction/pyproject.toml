@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trainspotting-recon"
+version = "1.0.0"
+description = "Object-centric reconstruction of found photo collections"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+
+[project.scripts]
+trainspotting-recon = "trainspotting_recon.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["trainspotting_recon*"]
