@@ -1,16 +1,10 @@
-# Trainspotting
+<h1 align="center">Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos</h1>
 
-Code for **Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos**
-(Hanyu Chen and Noah Snavely, Cornell University).
+<p align="center"><a href="https://hanyuc.com/">Hanyu Chen</a> &middot; <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><br>Cornell University</p>
+
+<p align="center"><a href="https://hanyuc.com/data/papers/trainspotting.pdf">Paper</a> &nbsp;&middot;&nbsp; <a href="https://hanyuc.com/trainspotting/">Project page</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/datasets/hanyucc/Trainspotting">Dataset</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/spaces/hanyucc/spotter-demo">Demo</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/hanyucc/spotter">Checkpoint</a></p>
 
 <p align="center"><img src="assets/teaser.jpg" alt="Flying Scotsman: twelve Wikimedia Commons photos taken between 1928 and 2026, and the point cloud and cameras Spotter recovers from them" width="100%"></p>
-
-- **Trainspotting dataset**: 12,068 objects and 311,886 photos from Wikimedia Commons with camera poses,
-  multi-view stereo depth and object masks — [hanyucc/trainspotting](https://huggingface.co/datasets/hanyucc/trainspotting)
-- **Spotter weights**: VGGT-Ω fine-tuned on Trainspotting, with an object mask head —
-  [hanyucc/spotter](https://huggingface.co/hanyucc/spotter)
-- **Demo**: [hanyucc/spotter-demo](https://huggingface.co/spaces/hanyucc/spotter-demo) (Gradio, source in `demo/`)
-- **Paper**: arXiv link to follow
 
 This repository contains
 
