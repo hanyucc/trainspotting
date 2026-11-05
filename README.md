@@ -97,4 +97,14 @@ Commons licenses (`ATTRIBUTION.md`).
 
 ## Citation
 
-To follow.
+```bibtex
+@misc{chen2026trainspotting,
+  title = {{Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos}},
+  author = {Chen, Hanyu and Snavely, Noah},
+  year = {2026},
+  eprint = {2611.06849},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url = {https://arxiv.org/abs/2611.06849}
+}
+```
