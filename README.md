@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://hanyuc.com/">Hanyu Chen</a> &middot; <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><br>Cornell University</p>
 
-<p align="center"><a href="https://hanyuc.com/data/papers/trainspotting.pdf">Paper</a> &nbsp;&middot;&nbsp; <a href="https://hanyuc.com/trainspotting/">Project page</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/datasets/hanyucc/Trainspotting">Dataset</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/spaces/hanyucc/spotter-demo">Demo</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/hanyucc/spotter">Checkpoint</a></p>
+<p align="center"><a href="https://arxiv.org/abs/2611.06849">Paper</a> &nbsp;&middot;&nbsp; <a href="https://hanyuc.com/trainspotting/">Project page</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/datasets/hanyucc/Trainspotting">Dataset</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/spaces/hanyucc/spotter-demo">Demo</a> &nbsp;&middot;&nbsp; <a href="https://huggingface.co/hanyucc/spotter">Checkpoint</a></p>
 
 <p align="center"><img src="assets/teaser.jpg" alt="Flying Scotsman: twelve Wikimedia Commons photos taken between 1928 and 2026, and the point cloud and cameras Spotter recovers from them" width="100%"></p>
 
