@@ -18,7 +18,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "demo"))
 
 REFERENCE = os.path.join(HERE, "reference", "flying_scotsman_4v.npz")
-EXAMPLE_IMAGES = sorted(glob.glob(os.path.join(HERE, "..", "demo", "examples", "flying_scotsman", "*.jpg")))[:4]
+EXAMPLE_IMAGES = sorted(glob.glob(os.path.join(HERE, "examples", "flying_scotsman", "*.jpg")))[:4]
 
 
 def summarise(predictions):

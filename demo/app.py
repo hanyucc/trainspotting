@@ -30,9 +30,7 @@ except ImportError:  # local GPU
     def gpu(fn):
         return fn
 
-HERE = os.path.dirname(os.path.abspath(__file__))
 MAX_VIEWS = int(os.environ.get("SPOTTER_MAX_VIEWS", "24"))
-EXAMPLES = [sorted(glob.glob(os.path.join(HERE, "examples", "flying_scotsman", "*.jpg")))]
 
 MODEL = None
 
@@ -160,16 +158,6 @@ def build_ui():
 
         viz_inputs = [target_dir_output, mask_threshold, show_cameras, max_points_k, view_select]
 
-        def example_pipeline(images):
-            target_dir, paths = handle_uploads(images)
-            glb, log = reconstruct(target_dir, 0.5, True, 1000)
-            return glb, log, target_dir, paths, gr.update(choices=view_choices(paths), value=ALL_PHOTOS)
-
-        gr.Examples(
-            examples=EXAMPLES, inputs=[input_images],
-            outputs=[reconstruction_output, log_output, target_dir_output, image_gallery, view_select],
-            fn=example_pipeline, cache_examples=False, label="Example: Flying Scotsman, 12 photos from Wikimedia Commons",
-        )
         input_images.change(
             fn=update_gallery_on_upload, inputs=[input_images],
             outputs=[reconstruction_output, target_dir_output, image_gallery, log_output, view_select],

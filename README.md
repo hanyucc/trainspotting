@@ -92,7 +92,7 @@ python tests/test_smoke.py            # runs the model on four example photos an
 distributed, like the Spotter weights, under the FAIR Noncommercial Research License (`LICENSE`): noncommercial
 research use only. `evaluation/`, `tests/` and `reconstruction/` are MIT licensed, except `evaluation/preprocess.py`, which is
 adapted from VGGT and carries its license, and the CasDiffMVS and ViGeo code in `reconstruction/trainspotting_recon/vendor/`, which
-keeps its Apache 2.0 license. The example photos in `demo/examples/` keep their Wikimedia
+keeps its Apache 2.0 license. The photos in `tests/examples/` keep their Wikimedia
 Commons licenses (`ATTRIBUTION.md`).
 
 ## Citation

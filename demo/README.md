@@ -11,4 +11,3 @@ python demo/app.py --checkpoint spotter.safetensors
 
 The hosted version at https://huggingface.co/spaces/hanyucc/spotter-demo runs this folder on ZeroGPU with a
 copy of the `spotter` package. `SPOTTER_MAX_VIEWS` (default 24) caps the number of photos per reconstruction.
-`examples/` holds the Flying Scotsman photos of the paper's teaser with their Commons attributions.
